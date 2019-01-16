@@ -5,7 +5,7 @@ def square_array(numbers)
   numbers.each do |number|
     square = number**2 
     square_array.push(square)
-    binding pry
+    binding.pry
   end
   square_array
 end
